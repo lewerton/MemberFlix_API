@@ -27,8 +27,8 @@ Este é um projeto Laravel que serve como base para desenvolvimento de aplicaç�
 1.  **Clone o repositório:**
     
     ```
-    git clone <URL-do-repositorio>
-    cd <nome-do-projeto>
+    git clone [<URL-do-repositorio>](https://github.com/lewerton/MemberFlix_API)
+    cd MemberFlix_API
     ```
     
 2.  **Instale as dependências PHP:**
@@ -46,7 +46,10 @@ Este é um projeto Laravel que serve como base para desenvolvimento de aplicaç�
 4.  **Configure o arquivo de ambiente:**
     
     ```
-    cp .env.example .env
+    cp .env.example .env (Linux / Git Bash)
+    Ou
+    copy .env.example .env (Windows)
+
     php artisan key:generate
     ```
     
